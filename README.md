@@ -26,10 +26,27 @@ Para a criação do dashbord, foram utilizados os seguintes arquivos do banco de
 * race_summaries - contém o resultado de cada Grand Prix de 1950 até 2022
 
 ## 🏁 Começando
+Como acessar o dashboard
+
+No repositório, baixe as pastas:
+```
+Desafio-Python/DESAFIO PYTHON
+```
+```
+Desafio-Python/DADOS F1
+```
+
+Depois do dowload, abra:
+```
+Desafio-Python/DESAFIO PYTHON/main.py
+```
+
 No terminal do python:
 ```
 streamlit run main.py
 ```
+
+Aproveite o conteúdo!
 
 ## 🛠️ Estrutura
 Elementos do dashbord
@@ -40,7 +57,7 @@ Elementos do dashbord
 * *Radio piloto e construtoras* -> as opções atualizam o gráfico "Pontuação no campeonato" para o campeonato dos pilotos ou das construtoras na temporada escolhida
 
 **Gráficos**
-* *Número de corridas* -> apresenta a quantidade de corridas na temporada e compara com a quantidade na primeira temporada, com a média de corridas e com a quantidade na temporada de 2022
+* *Número de corridas* -> apresenta a quantidade de corridas na temporada em analise e a compara tanto com o número que havia na primeira quanto com a média de corridas e com a quantidade na temporada de 2022
 * *Metric* -> apresenta o tempo da volta mais rápida e mais lenta de cada temporada
 * *Podio da temporada* -> apresenta os três primeiros colocados da temporada em análise, o nome e a pontuação que fizeram
 * *Pontuação no campeonato* -> pode variar entre os pontos de cada piloto na temporada e a pontuação de cada construtora
@@ -48,7 +65,7 @@ Elementos do dashbord
 * *Legendas* -> trazem informações relevantes sobre os gráficos
 
 ## 👨‍💻 Desenvolvedor 
-Responsável pela criação do projeto
+Responsável pela criação do projeto 
 
 Diego - Programação e documentação
 
