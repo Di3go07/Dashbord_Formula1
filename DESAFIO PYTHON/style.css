@@ -1,0 +1,87 @@
+/* SIDEBAR */
+
+/* Título */
+div.st-emotion-cache-k7vsyb.e1nzilvr2 h2{
+    font-size: 25px;
+}
+div.st-emotion-cache-k7vsyb.e1nzilvr2 h3{
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+/* Texto botão */
+label.st-emotion-cache-1hjvxyh.e1y5xkzn3 p{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+div.st-as.st-cq.st-cr.st-cs.st-ct.st-cu.st-cv p{
+    font-size: 18px;
+}
+div.st-emotion-cache-ul70r3.e1nzilvr5 p{
+    font-size: 18px;
+}
+
+/* Selectbox */
+div.row-widget.stSelectbox{
+    padding-bottom: 15px;
+}   
+
+
+/* LEGENDAS */
+summary.st-emotion-cache-vsi2tt.eqpbllx1 {
+    background-color: #262730;
+    border: #B80900 solid 1px;
+    border-radius: 8px;
+}
+details.st-emotion-cache-13na8ym.eqpbllx3 {
+    position: relative;
+    border: #B80900 solid 1px;
+    border-radius: 8px;
+    top: -40px;
+    margin-bottom: 20px;
+}
+
+
+div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 {
+    padding-bottom: 40px;
+}
+
+div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 p{
+    text-align: center;
+    font-size: 22px;
+}
+
+st-emotion-cache-10trblm.e1nzilvr1 h1{
+    left:  50px;
+    padding-bottom: 50px;
+}
+
+#f39dd411, #fe1ef4c2, #b789804c{
+    text-align: center;
+}
+
+#d4811d26{
+    text-align: center;
+    position: relative;
+    top: 95px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#temporada-de-1950{
+    font-size: 35px;
+}
+
+img {
+    position: relative;
+    left: 25px;
+    padding-top: 150px;
+}
+
+code {
+    background:none;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+}
+

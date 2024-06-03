@@ -3,7 +3,6 @@ import streamlit as st
 import plotly.express as px 
 import plotly.graph_objects as go
 
-
 ##BANCO DE DADOS
 
 data = pd.read_csv(r'C:\Users\Administrador\Desktop\DADOS F1\driver_standings.csv', sep=',')
@@ -20,6 +19,9 @@ st.set_page_config(
 )
 col1, col2 = st.columns(2, gap='large')
 
+
+with open("style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 ##FILTRAR TEMPORADA
 lista_temporadas = data['Year'].unique()
@@ -63,11 +65,6 @@ with st.container():
     st.sidebar.markdown("Diego Penna Andrade Barros")
     st.sidebar.markdown("PDITA 274")
 
-##MAIN
-with col1:
-    st.title(f'Temporada de {temporada_escolhida}')
-
-
 ##FUNÇÃO
 def filtrar_ano():
     filtragem = data.query(f'Year == {temporada_escolhida}')
@@ -100,6 +97,8 @@ tempo_voltas = races_lap()
 ##GRÁFICOS
 with col1:
     with st.container():
+        st.title(f'Temporada de {temporada_escolhida}')
+    with st.container():
         fig = go.Figure(go.Indicator(
             mode = "gauge+number+delta",
             value = len(data_races.query(f'Year == {temporada_escolhida}')),
@@ -125,10 +124,7 @@ with col1:
             st.write('''**O número central** representa o número corridas na temporada em análise e o **delta**, o número abaixo, a comparação entre esse valor com o número de corridas realizadas na temporada de 1950''')
     #legenda do gráfico acima
     
-    with st.container():
-        col3, col4 = st.columns(2)  
-        col3.metric("Volta mais rápida", sorted(tempo_voltas)[0])
-        col4.metric("Volta mais lenta", sorted(tempo_voltas)[-1])
+
 
     #metrics com a volta mais rapida e mais lenta de cada temporada
 
@@ -140,11 +136,11 @@ with col1:
 
 with col2: 
     with st.container():
-        st.subheader('Pódio da temporada')
+        st.subheader('PÓDIO DA TEMPORADA')
         col2_1, col2_2, col2_3 = st.columns(3)
         with col2_2:
             st.image('piloto_icon.png', width=200)
-            st.title('1º')
+            st.title('I º')
             st.write(tabela_ano['Driver'].iloc[0], '🏆')
             st.write(tabela_ano['PTS'].iloc[0], 'pontos')
         with col2_1:
@@ -153,10 +149,10 @@ with col2:
             st.write(tabela_ano['Driver'].iloc[1]) 
             st.write(tabela_ano['PTS'].iloc[1], 'pontos')
         with col2_3:
-                st.image('piloto3_icon.png', width=150)
-                st.title('3º')
-                st.write(tabela_ano['Driver'].iloc[2]) 
-                st.write(tabela_ano['PTS'].iloc[2], 'pontos')
+            st.image('piloto3_icon.png', width=150)
+            st.title('3º')
+            st.write(tabela_ano['Driver'].iloc[2]) 
+            st.write(tabela_ano['PTS'].iloc[2], 'pontos')
  
 
     with st.container():
