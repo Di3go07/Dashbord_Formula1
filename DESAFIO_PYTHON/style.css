@@ -1,38 +1,56 @@
 /* SIDEBAR */
 
 /* Título */
+
 div.st-emotion-cache-k7vsyb.e1nzilvr2 h2{
     font-size: 25px;
 }
+/* modifica o  texto "FORMULA 1 DASHBOARD"*/
+
 div.st-emotion-cache-k7vsyb.e1nzilvr2 h3{
     font-size: 20px;
     margin-top: -15px;
 }
+/* modifica o  texto "1950 - 2022"*/
+
+
 
 /* Texto botão */
 label.st-emotion-cache-1hjvxyh.e1y5xkzn3 p{
     font-size: 18px;
     padding-bottom: 5px;
 }
+/* modifica o  titulo dos selectbox*/
+
+
 div.st-as.st-cq.st-cr.st-cs.st-ct.st-cu.st-cv p{
     font-size: 18px;
 }
+/* modifica o textos dos botões de radio*/
+
 div.st-emotion-cache-ul70r3.e1nzilvr5 p{
     font-size: 18px;
 }
+/* modifica o textos da sessão sobre*/
+
 
 /* Selectbox */
 div.row-widget.stSelectbox{
     padding-bottom: 15px;
 }   
+/* modifica a caixa dos selectboxs*/
 
 
 /* LEGENDAS */
+
 summary.st-emotion-cache-vsi2tt.eqpbllx1 {
     background-color: #262730;
     border: #B80900 solid 1px;
     border-radius: 8px;
 }
+/* modifica a caixa exterior da legenda dos gráficos */
+
+
 details.st-emotion-cache-13na8ym.eqpbllx3 {
     position: relative;
     border: #B80900 solid 1px;
@@ -40,6 +58,9 @@ details.st-emotion-cache-13na8ym.eqpbllx3 {
     top: -40px;
     margin-bottom: 20px;
 }
+/* modifica a caixa interior da legenda dos gráficos */
+
+
 
 /* GRÁFICOS */
 
@@ -47,20 +68,20 @@ div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+/* modifica a sessão com o top 3 da temporada */
+
 
 div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 p{
     text-align: center;
     font-size: 22px;
 }
+/* modifica o nome dos pilotos no top 3 da temporada */
 
-div.st-emotion-cache-10trblm.e1nzilvr1 h1{
-    left:  50px;
-    padding-bottom: 80px;
-}
 
 #f39dd411, #fe1ef4c2, #b789804c{
     text-align: center;
 }
+/* modifica os números do top 3 da temporada */
 
 #d4811d26{
     text-align: center;
@@ -69,6 +90,7 @@ div.st-emotion-cache-10trblm.e1nzilvr1 h1{
     font-size: 25px;
     font-weight: 700;
 }
+/* modifica o título do top 3 da temporada */
 
 #temporada-de-1950{
     font-size: 35px;
@@ -76,12 +98,15 @@ div.st-emotion-cache-10trblm.e1nzilvr1 h1{
     bottom: 10px;
     left: 170px;
 }
+/* modifica o título principal da página "Temporada de (ano)" */
+
 
 div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 img {
     position: relative;
     left: 25px;
     padding-top: 100px;
 }
+/* modifica as imagens do top 3 da temporada */
 
 code {
     background:none;
@@ -89,7 +114,7 @@ code {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 22px;
 }
-
+/* modifica a pontuação no top 3 da temporada */
 
 
 
