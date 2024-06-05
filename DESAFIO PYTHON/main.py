@@ -20,7 +20,7 @@ st.set_page_config(
 col1, col2 = st.columns(2, gap='large')
 
 
-with open("style.css") as f:
+with open("style.css", encoding="utf8") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 ##FILTRAR TEMPORADA
@@ -97,6 +97,7 @@ tempo_voltas = races_lap()
 ##GRÁFICOS
 with col1:
     with st.container():
+        st.image("f1 _logo.png", width=150)
         st.title(f'Temporada de {temporada_escolhida}')
     with st.container():
         fig = go.Figure(go.Indicator(

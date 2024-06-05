@@ -41,9 +41,11 @@ details.st-emotion-cache-13na8ym.eqpbllx3 {
     margin-bottom: 20px;
 }
 
+/* GRÁFICOS */
 
 div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 {
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 p{
@@ -51,9 +53,9 @@ div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 p{
     font-size: 22px;
 }
 
-st-emotion-cache-10trblm.e1nzilvr1 h1{
+div.st-emotion-cache-10trblm.e1nzilvr1 h1{
     left:  50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 #f39dd411, #fe1ef4c2, #b789804c{
@@ -63,19 +65,22 @@ st-emotion-cache-10trblm.e1nzilvr1 h1{
 #d4811d26{
     text-align: center;
     position: relative;
-    top: 95px;
+    top: 120px;
     font-size: 25px;
     font-weight: 700;
 }
 
 #temporada-de-1950{
     font-size: 35px;
+    position: absolute;
+    bottom: 10px;
+    left: 170px;
 }
 
-img {
+div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 img {
     position: relative;
     left: 25px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 code {
@@ -84,4 +89,7 @@ code {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 22px;
 }
+
+
+
 
