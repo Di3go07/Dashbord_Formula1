@@ -43,7 +43,7 @@ Desafio-Python/DESAFIO PYTHON/main.py
 
 No terminal do python:
 ```
-streamlit run main.py
+streamlit run DESAFIO_PYTHON/main.py
 ```
 
 Aproveite o conteúdo!
