@@ -30,15 +30,15 @@ Como acessar o dashboard
 
 No repositório, baixe as pastas:
 ```
-Desafio-Python/DESAFIO PYTHON
+Desafio-Python/DESAFIO_PYTHON
 ```
 ```
-Desafio-Python/DADOS F1
+Desafio-Python/Dados_F1
 ```
 
 Depois do dowload, abra:
 ```
-Desafio-Python/DESAFIO PYTHON/main.py
+Desafio-Python/DESAFIO_PYTHON/main.py
 ```
 
 No terminal do python:
