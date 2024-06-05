@@ -14,7 +14,7 @@ pip install streamlit
 ```
 Baixar o banco de dados no repositorio:
 ```
-Desafio-Python/Dados F1
+Desafio-Python/Dados_F1
 ```
 
 ## 💾 Banco de Dados
